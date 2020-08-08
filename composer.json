@@ -22,7 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mpaden\\JsonApiBundle\\Documentation\\": "src/"
+            "Mpaden\\JsonApi\\": "src/"
         }
+    },
+    "scripts": {
+        "csfixer:fix": [
+            "php-cs-fixer fix"
+        ]
     }
 }
